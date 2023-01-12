@@ -1,0 +1,25 @@
+{
+    "nav": {
+        "home": "Home",
+        "collection": "Collection",
+        "users": "Users",
+        "admin": "Admin",
+        "search": "Search",
+        "sale": "For Sale",
+        "reports": "Reports",
+        "listMenu": {
+            "listMenu": "List",
+            "add": "Add",
+            "view": "Lists"
+        },
+        "groupMenu": {
+            "groupMenu": "Group menu",
+            "single": "Group single menu item",
+            "collapse": {
+                "collapse": "Group collapse menu",
+                "item1": "Group collapse menu item 1",
+                "item2": "Group collapse menu item 2"
+            }
+        }
+    }
+}
