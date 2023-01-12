@@ -1,5 +1,5 @@
 const appConfig = {
-    apiPrefix: '/api',
+    apiPrefix: 'https://jsonplaceholder.typicode.com/',
     authenticatedEntryPath: '/list',
     unAuthenticatedEntryPath: '/sign-in',
     tourPath: '/',
