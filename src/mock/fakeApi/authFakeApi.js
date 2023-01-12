@@ -4,7 +4,7 @@ import isEmpty from 'lodash/isEmpty'
 
 export default function authFakeApi (server, apiPrefix) {
     console.log(apiPrefix)
-    server.post(`${apiPrefix}/sign-in`, (schema, {requestBody}) => {
+    server.get(`${apiPrefix}/sign-in`, (schema, {requestBody}) => {
         const { userName, password } = JSON.parse(requestBody)
         const user = schema.db.signInUserData.findBy({ accountUserName: userName, password })
         console.log('user', user)
